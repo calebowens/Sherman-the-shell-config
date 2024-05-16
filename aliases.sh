@@ -1,6 +1,7 @@
 echo "Loading aliases"
 
 # Tmuxinator
+alias tmuxinator='$HOME/.rbenv/versions/3.3.0/bin/tmuxinator'
 alias tx='tmuxinator'
 
 # Docker aliases
@@ -13,3 +14,5 @@ alias dcr="docker compose run"
 alias rip="rip --graveyard ~/.local/share/Trash"
 
 alias vim="nvim"
+
+alias notes="vim ~/Notes"
