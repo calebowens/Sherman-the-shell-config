@@ -2,9 +2,9 @@
 echo "Starting sherman"
 
 
-source $HOME/sherman-the-shell-config/constants.sh
+source $HOME/code/sherman-the-shell-config/constants.sh
 source $SHERMAN/utils.sh
-source $SHERMAN/sherman_ruby.sh
+# source $SHERMAN/sherman_ruby.sh
 source $SHERMAN/reload.sh
 source $SHERMAN/aliases.sh
 source $SHERMAN/private_aliases.sh
