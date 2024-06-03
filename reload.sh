@@ -6,8 +6,8 @@ function sherman_reload() {
   sherman_heading "Clear Shermandir"
   clear_shermandir
 
-  sherman_heading "Reload sherman ruby"
-  reload_sherman_ruby
+  # sherman_heading "Reload sherman ruby"
+  # reload_sherman_ruby
 
   sherman_heading "Reload nvim config"
   echo "Removing nvim configuration files"
@@ -23,11 +23,11 @@ function sherman_reload() {
   echo "Copying private tmuxinator configs"
   cp $SHERMAN/private_tmuxinator/* $HOME/.config/tmuxinator
 
-  sherman_heading "Reloading alacritty config"
-  echo "Removing alacritty folder"
-  rm -r $HOME/.config/alacritty
-  echo "Copying alacritty"
-  cp -r $SHERMAN/alacritty $HOME/.config/alacritty
+  # sherman_heading "Reloading alacritty config"
+  # echo "Removing alacritty folder"
+  # rm -r $HOME/.config/alacritty
+  # echo "Copying alacritty"
+  # cp -r $SHERMAN/alacritty $HOME/.config/alacritty
 
   sherman_heading "Reloading puma-dev config"
   echo "Removing puma-dev folder"
